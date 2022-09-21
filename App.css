@@ -1,0 +1,64 @@
+.container{
+    background-color: rgb(170, 151, 88);
+    background-image: url("./imagenes/simpson.jpg"); 
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 90rem;
+
+}
+#img{
+    margin-left: 15px;
+    width: 265px;
+    height: 345px;
+    background-color: #ffffff8f;
+    background-image: url("./imagenes/hangman-game_pm.png");
+}
+#msg{
+    padding-top: 60px;
+    margin-left: 15px; 
+}
+
+#textFinish{
+    -webkit-text-stroke: 1px white;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+}
+#textFirst{
+    -webkit-text-stroke: 1px brown;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#replay{
+    display: none;
+}
+#button{
+    border: none;
+    background-color: brown;
+    width: 150px;
+}
+
+#letra{
+    width: 190px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+#secret{
+    margin-left: 15px;
+    color: white;
+}
+.aws{
+    display: flex;
+}
